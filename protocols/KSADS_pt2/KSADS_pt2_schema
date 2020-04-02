@@ -1,0 +1,47 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/KSADS_pt2/master/protocols/KSADS_pt2/KSADS_pt2_context"
+    ],
+    "@type": "reproschema:ActivitySet",
+    "@id": "KSADS_pt2_schema",
+    "skos:prefLabel": "KSADS pt2 v0.1",
+    "skos:altLabel": "KSADS_pt2_schema",
+    "schema:description": "KSADS Interview pt2",
+    "schema:about": "https://raw.githubusercontent.com/hotavocado/KSADS_pt2/master/README.md",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "separation_anxiety",
+            "isAbout": "separation_anxiety"
+        },
+        {
+            "variableName": "panic_disorder",
+            "isAbout": "panic_disorder"
+        },
+        {
+            "variableName": "agoraphobia",
+            "isAbout": "agoraphobia"
+        },
+        {
+            "variableName": "obsessive_compulsive_disorder",
+            "isAbout": "obsessive_compulsive_disorder"
+        }
+    ],
+    "ui": {
+        "order": [
+            "separation_anxiety",
+            "panic_disorder",
+            "agoraphobia",
+            "obsessive_compulsive_disorder"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "separation_anxiety": true,
+            "panic_disorder": true,
+            "agoraphobia": true,
+            "obsessive_compulsive_disorder": true
+        }
+    }
+}
